@@ -1,0 +1,53 @@
+.ProjectBody{
+    height : 50rem;
+    padding-top: 150px;
+}
+.ProjectHead{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 20px;
+}
+
+.Project-listings{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width : 20%;
+    background-color: #06283D;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container>p{
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+}
+.container>h4 {
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.Image{
+    width:100%;
+}
+
+a{
+    text-decoration: none;
+    color: #FCF8E8;
+    padding-bottom: 5px;
+}
+
+a:hover{
+    border-bottom: 1px solid #FCF8E8;
+}

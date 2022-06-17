@@ -1,0 +1,145 @@
+.MainForm{
+    height : 50rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    margin-left: 50%;
+}
+.Form-Heading{
+    width: 50%;
+    background-color: #06283D;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    color : #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+}
+.Form-Body{
+    display: flex;
+    background-color: #06283D;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+}
+.FullName{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.Email {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.Message {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.NameText{
+    margin-right : 100px;
+}
+.EmailText {
+    margin-right: 130px;
+}
+.MessageText {
+    margin-right: 125px;
+}
+.NameEntry{
+    width : 30%;
+}
+.MessageEntry {
+    margin-top: 50px;
+    width: 30%;
+    height : 80%;
+    margin-bottom: 80px;
+}
+.EmailEntry {
+    width: 30%;
+}
+
+.NameEntry>input{
+    width : 100%;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.EmailEntry>input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding : 10px;
+}
+.MessageEntry>textarea {
+    padding: 10px;
+    width: 100%;
+    height : 100%;
+    resize : none;
+    border: none;
+    outline: none;
+}
+.MyButton{
+    display: flex;
+    justify-content: end;
+    width : 70%; 
+    height : 20%;
+    margin-bottom: 50px; 
+}
+
+.MyButton>button {
+    color:#FCF8E8 ;
+    transition: all 0.5s;
+    position: relative;
+    width : 100px;
+    height : 40px;
+background-color: rgba(96, 96, 96, 0.7);    border: none;
+}
+
+.MyButton>button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s;
+}
+
+.MyButton>button::before {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+}
+
+.MyButton>button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transform: scale(1.2, 1.2);
+}
+
+.MyButton>button:hover::after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
+

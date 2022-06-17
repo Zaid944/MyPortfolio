@@ -1,0 +1,59 @@
+.CodeMain {
+    height: 50rem;
+    padding-top: 150px;
+}
+
+.CodeHead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+    margin-bottom: 20px;
+}
+
+.CodeCards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerNew>h4{
+    text-align: center;
+}
+.cardNew {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 20%;
+    background-color: #06283D;
+}
+
+.cardNew:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.containerNew>p {
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1rem;
+}
+
+.containerNew>h4 {
+    color: #FCF8E8;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.containerNew {
+    padding: 2px 16px;
+}
+
+.ImageNew {
+    width: 100%;
+    
+}
+
+.cardNew>a {
+    text-decoration: none;
+    color: #FCF8E8;
+    padding-bottom: 5px;
+}
+

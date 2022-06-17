@@ -1,0 +1,22 @@
+.ParentNew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 40rem;
+    width: 100%;
+}
+.TextNew{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height : 30rem;
+    width : 70%;
+}
+
+.TextNew>p{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Source Code Pro', monospace;
+    color: #FCF8E8;
+    line-height: 2rem;
+}
