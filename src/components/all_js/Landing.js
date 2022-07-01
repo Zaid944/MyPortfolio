@@ -1,6 +1,6 @@
 import React from "react";
 import "./Landing.css";
-import img from "./MyPhoto.jpg";
+import img from "./MyPhotoOg.jpg";
 function Landing() {
   return (
     <>
